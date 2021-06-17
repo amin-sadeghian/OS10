@@ -5,11 +5,6 @@ echo ""
 i="y"
 while [ $i = "y" ]
 do
-echo "please enter two number:"
-echo "number 1: "
-read num1
-echo "number2: "
-read num2
 #Choose the operation
 echo "Choose the operator:"
 echo ""
@@ -21,6 +16,12 @@ echo "3-SUBTRACTION"
 
 echo "4-DIVISION"
 read choose
+
+echo "please enter two number:"
+echo "number 1: "
+read num1
+echo "number2: "
+read num2
 
 echo "your choise is: "$choose
 echo ""
